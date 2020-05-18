@@ -1,0 +1,64 @@
+/* header */
+.header-container {
+  text-align: center;
+  margin: 25px auto;
+
+}
+
+.header-container h1 {
+  margin: 0px;
+}
+
+.header-container strong {
+	font-weight: lighter;
+}
+
+/* Input container */
+.input-container {
+	text-align: center;
+	margin: 30px auto;
+}
+.input-container th {
+	border-bottom: 0px;	
+	width: 25%;
+}
+
+.input-container td {
+	border: 0px;
+	padding: 0;
+}
+
+.input-container table {
+	width: 100%;
+}
+
+/* body container */
+.body-container {
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+.card {
+	width: 50%;
+	margin: 5px;
+}
+
+.dl-horizontal {
+	margin-bottom: 0px;
+}
+
+
+/* for mobile */
+@media only screen and (max-width: 650px) { 
+	.body-container {
+		flex-direction: column;
+	}
+	.card {
+		width: 98%;
+	}
+	.spinner-border {
+		align-self: center;
+
+	}
+}
