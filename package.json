@@ -1,0 +1,25 @@
+{
+  "name": "jurisdictionapp",
+  "version": "1.0.0",
+  "description": "App usado para pesquisa de competencia territorial",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/washingtonj/JurisdictionApp.git"
+  },
+  "author": "Washington Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/washingtonj/JurisdictionApp/issues"
+  },
+  "homepage": "https://github.com/washingtonj/JurisdictionApp#readme"
+}
