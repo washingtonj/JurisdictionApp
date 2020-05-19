@@ -10,4 +10,4 @@ Esta pesquisa abrange apenas prédios da capital paulista, sendo o retorno em f�
 Todos os elementos usados nesta pagina forum adicionados durante minha jornada de estudos com JavaScript, sendo assim, todos as frameworks e bibliotecas usadas neste projeto são baseadas em Javascript e CSS.
 
 
-![printscreen](https://imgur.com/i4P0vEa)
+![printscreen](https://i.imgur.com/i4P0vEa.png)
