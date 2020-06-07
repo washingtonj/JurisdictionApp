@@ -1,5 +1,7 @@
+import 'bootstrap'
+
 export default class Render {
-    tableRender(classid, query, data) {
+    table(classid, query, data) {
       let thContent = ['CEP', 'LOGRADOURO', 'BAIRRO', 'FORUM']
   
       let div = document.createElement('div')
@@ -21,7 +23,7 @@ export default class Render {
       document.querySelector(query).appendChild(div)
     }
   
-    cardRender(classid, query, data) {
+    card(classid, query, data) {
       let CardDiv = document.createElement('div')
       CardDiv.setAttribute('class', 'card')
       let CardBody = document.createElement('div')
@@ -37,7 +39,7 @@ export default class Render {
       document.querySelector(query).appendChild(CardDiv)
     }
   
-    loadingRender(query, loading = true) {
+    loading(query, loading = true) {
       if (loading === true) {
         let div = document.createElement('div')
         let span = document.createElement('span')

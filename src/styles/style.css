@@ -1,12 +1,13 @@
 /* header */
-.header-container {
-  text-align: center;
-  margin: 25px auto;
 
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+.header-container {
+	text-align: center;
+	margin: 25px auto;
 }
 
 .header-container h1 {
-  margin: 0px;
+	margin: 0px;
 }
 
 .header-container strong {
@@ -14,12 +15,21 @@
 }
 
 /* Input container */
+
 .input-container {
 	text-align: center;
 	margin: 30px auto;
 }
+
+.input-container p {
+	font-weight: 100;
+	margin-top: 3px;
+	font-size: 12px;
+	text-align: center;
+}
+
 .input-container th {
-	border-bottom: 0px;	
+	border-bottom: 0px;
 	width: 25%;
 }
 
@@ -33,6 +43,7 @@
 }
 
 /* body container */
+
 .body-container {
 	display: flex;
 	margin-bottom: 40px;
@@ -48,9 +59,9 @@
 	margin-bottom: 0px;
 }
 
-
 /* for mobile */
-@media only screen and (max-width: 650px) { 
+
+@media only screen and (max-width: 650px) {
 	.body-container {
 		flex-direction: column;
 	}
@@ -59,6 +70,5 @@
 	}
 	.spinner-border {
 		align-self: center;
-
 	}
 }
